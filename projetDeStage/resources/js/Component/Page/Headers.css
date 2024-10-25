@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inria Sans", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header-nav .liste {
+    color: aliceblue;
+}
+
+.header-nav .nav-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .bi-list {
+    font-size: 1.5rem; /* Augmente la taille de l'icône */
+    color: white; /* Couleur de l'icône */
+    margin-left: 40px; /* Ajustez l'espacement à droite de "Super Admine" */
+    cursor: pointer;
+}
+
+.header-nav .nav-item i {
+    margin-right: 10px;
+    transition: color 0.3s ease;
+    font-weight: 700;
+}
